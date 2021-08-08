@@ -1,0 +1,62 @@
+//
+// ヘッダーのスタイル
+//
+
+
+// ヘッダー
+header {
+    position: relative;
+}
+
+.home-wrapper {
+    position: absolute;
+    top: -4rem;
+    left: -8rem;
+    background: $yellow;
+    width: 39rem;
+    height: 37.5rem;
+    border-radius: 50%;
+    @media (max-width: 600px) {
+        top: -2.5rem;
+        left: -3.5rem;
+        width: 21.5rem;
+        height: 20.5rem;
+    }
+}
+
+.header-title {
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    @media (max-width: 600px) {
+        top: 1rem;
+        left: 2rem;
+    }
+}
+
+.name {
+    font-family: 'all-round-gothic', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.7rem;
+    margin: 0;
+    letter-spacing: 0.03em;
+    @media (max-width: 600px) {
+        font-size: 1.85rem;
+    }
+}
+
+.title {
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.4;
+    margin: 0;
+    @media (max-width: 600px) {
+        font-size: 1.2rem;
+    }
+}
+

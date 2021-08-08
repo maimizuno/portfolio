@@ -1,0 +1,150 @@
+//icon samplecafe title tomato stem
+.icon-ribon:before {
+    content: "\e901";
+    color: $avo;
+    font-size: 7rem;
+    @media (max-width: 1200px) {
+        font-size: 5rem;
+        @media (max-width: 1200px) {
+            font-size: 3rem;
+        }
+    }
+}
+
+//icon tomato
+.icon-tomato .path1:before {
+    content: "\e904";
+    color: #ea9c75;
+    text-shadow: 0 1px 3px #606060;
+}
+.icon-tomato .path2:before {
+    content: "\e905";
+    color: #c0cea1;
+    margin-left: -1em;
+    text-shadow: 0 1px 3px #606060;
+}
+
+//icon salmon
+.icon-salmon .path1:before {
+    content: "\e906";
+    color: #f7f3df;
+}
+.icon-salmon .path2:before {
+    content: "\e907";
+    color: #f5d0b5;
+    margin-left: -1.3427734375em;
+    text-shadow: 0 1px 3px #606060;
+}
+.icon-salmon .path3:before {
+    content: "\e908";
+    color: #606060;
+    margin-left: -1.3427734375em;
+}
+.icon-salmon .path4:before {
+    content: "\e909";
+    color: #f5c6a3;
+    margin-left: -1.3427734375em;
+}
+.icon-salmon .path5:before {
+    content: "\e90a";
+    color: #f5c6a3;
+    margin-left: -1.3427734375em;
+}
+.icon-salmon .path6:before {
+    content: "\e90b";
+    color: #f5c6a3;
+    margin-left: -1.3427734375em;
+}
+.icon-salmon .path7:before {
+    content: "\e90c";
+    color: #f5c6a3;
+    margin-left: -1.3427734375em;
+}
+.icon-salmon .path8:before {
+    content: "\e90d";
+    color: #f5c6a3;
+    margin-left: -1.3427734375em;
+}
+.icon-salmon .path9:before {
+    content: "\e90e";
+    color: #f5c6a3;
+    margin-left: -1.3427734375em;
+}
+.icon-salmon .path10:before {
+    content: "\e90f";
+    color: #f5c6a3;
+    margin-left: -1.3427734375em;
+}
+.icon-salmon .path11:before {
+    content: "\e910";
+    color: #f5c6a3;
+    margin-left: -1.3427734375em;
+}
+.icon-salmon .path12:before {
+    content: "\e911";
+    color: #f5c6a3;
+    margin-left: -1.3427734375em;
+}
+.icon-salmon .path13:before {
+    content: "\e912";
+    color: #f5c6a3;
+    margin-left: -1.3427734375em;
+}
+.icon-salmon .path14:before {
+    content: "\e913";
+    color: #f5c6a3;
+    margin-left: -1.3427734375em;
+}
+
+//avocado
+.icon-avocado .path1:before {
+    content: "\e914";
+    color: #606060;
+    text-shadow: 0 1px 3px #606060;
+}
+.icon-avocado .path2:before {
+    content: "\e915";
+    color: #a4b284;
+    margin-left: -0.8212890625em;
+}
+.icon-avocado .path3:before {
+    content: "\e916";
+    color: #c0cea1;
+    margin-left: -0.8212890625em;
+}
+.icon-avocado .path4:before {
+    content: "\e917";
+    color: #c0cea1;
+    margin-left: -0.8212890625em;
+}
+.icon-avocado .path5:before {
+    content: "\e918";
+    color: #c0cea1;
+    margin-left: -0.8212890625em;
+    text-shadow: 0 2px 6px #a4b284;
+}
+
+//egg
+.icon-egg .path1:before {
+    content: "\e919";
+    color: #fffef8;
+    text-shadow: 0 1px 3px #808080;
+}
+.icon-egg .path2:before {
+    content: "\e91a";
+    color: #f7f3df;
+    margin-left: -1.02734375em;
+    text-shadow: 0 1px 3px #808080;
+}
+
+//font 45
+.icon-45:before {
+    content: "\e91b";
+    color: #f7f3df;
+}
+
+//link
+.icon-link:before {
+    content: "\e900";
+    padding-right: 0.5rem;
+}
