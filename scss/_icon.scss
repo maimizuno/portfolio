@@ -5,9 +5,9 @@
     font-size: 7rem;
     @media (max-width: 1200px) {
         font-size: 5rem;
-        @media (max-width: 1200px) {
-            font-size: 3rem;
-        }
+    }
+    @media (max-width: 768px) {
+        font-size: 3rem;
     }
 }
 
@@ -147,4 +147,19 @@
 .icon-link:before {
     content: "\e900";
     padding-right: 0.5rem;
+}
+
+//sample-webicon
+.icon-iconmonstr-globe-6:before {
+    content: "\e91c";
+    background: -webkit-linear-gradient(-45deg, #5815D8, #3273C7, #35BA95);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    font-size: 44rem;
+    @media (max-width: 1200px) {
+        font-size: 36rem;
+    }
+    @media (max-width: 768px) {
+        font-size: 23rem;
+    }
 }

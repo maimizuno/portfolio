@@ -23,6 +23,18 @@ $skin-gray: #606060;
 $avo: #C0CEA1;
 $avo-outer: #a4b284;
 
+//sample
+$dark-navy: #11152C;
+$light-navy: #18264e;
+$dark-ocean: #257388;
+$mallard: #107876;
+$sample-white: #fff;
+$sample-light-gray: #FFFEF8;
+$sample-darkgray: #222222;
+$blue-waltz: #43D9BD;
+$aquamarine: #49F2C2;
+$electoric: #8A2DD9;
+
 //nav
 $nav-length: 5;
 $nav-width: 100% / $nav-length;
@@ -116,12 +128,15 @@ h2 {
 
 h3 {
     font-weight: 600;
-    font-size: 2.6rem;
+    font-size: 3rem;
     text-transform: uppercase;
     letter-spacing: 0.2em;
     margin: 0;
+    @media (max-width: 1200px) {
+        font-size: 2.6rem;
+    }
     @media (max-width: 768px) {
-        font-size: 2.3rem;
+        font-size: 2.2rem;
     }
 }
 
