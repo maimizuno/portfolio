@@ -1,0 +1,193 @@
+//
+// cover-style
+//
+
+.works {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.works-wrapper {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-image: url(../images/rain.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+    width: 63rem;
+    height: 95rem;
+    @media (max-width: 1200px) {
+        background-image: url(../images/rain_ipad.png);
+        height: 98rem;
+    }
+    @media (max-width: 900px) {
+        width: 55rem;
+    }
+    @media (max-width: 600px) {
+        background-image: url(../images/rain_sp.png);
+        width: 22.5rem;
+        height: 57rem;
+    }
+}
+
+//heading
+.works-heading {
+    position: absolute;
+    top: 19rem;
+    left: 2rem;
+    z-index: 3;
+    color: black;
+    line-height: 1.1;
+    @media (max-width: 1200px) {
+        top: 43rem;
+        left: 16rem;
+    }
+    @media (max-width: 900px) {
+        left: 11rem;
+    }
+    @media (max-width: 600px) {
+        top: 22rem;
+        left: -4rem;
+    }
+}
+
+.works-sub {
+    font-family: 'source-serif-pro', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.6rem;
+    margin: 0;
+    padding-left: 1.4rem;
+    @media (max-width: 600px) {
+        font-size: 1.8rem;
+    }
+}
+
+.sorai {
+    position: relative;
+    z-index: 2;
+    margin: 0;
+	cursor: pointer;
+    .sorai-top-img {
+        position: absolute;
+        top: -13rem;
+        right: 38rem;
+        width: 37rem;
+        height: auto;
+        -webkit-transform: translate(0, 0);
+	    transform: translate(0, 0);
+        -webkit-transition: .5s ease-in-out;
+	    transition: .5s ease-in-out;
+        @media (max-width: 1200px) {
+            top: 9rem;
+            right: 23rem;
+            width: 32rem;
+        }
+        @media (max-width: 900px) {
+            top: 10rem;
+            right: 13rem;
+            width: 28rem;
+        }
+        @media (max-width: 600px) {
+            top: 8rem;
+            right: 1rem;;
+            width: 14rem;
+        }
+        &:nth-of-type(2) {
+            opacity: 0;
+        }
+        &:hover {
+            -webkit-transform: translate(0, 0) scale(1.15) !important;
+	        transform: translate(0, 0) scale(1.15) !important;
+            &:nth-of-type(2) {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.sample {
+    position: relative;
+    z-index: 2;
+    margin: 0;
+	cursor: pointer;
+    .sample-top-img {
+        position: absolute;
+        top: 10rem;
+        right: 0;
+        width: 20rem;
+        height: auto;
+        -webkit-transform: translate(0, 0);
+	    transform: translate(0, 0);
+        -webkit-transition: .5s ease-in-out;
+	    transition: .5s ease-in-out;
+        @media (max-width: 1200px) {
+            top: 30rem;
+            width: 18rem;
+        }
+        @media (max-width: 900px) {
+            top: 31rem;
+            width: 15rem;
+        }
+        @media (max-width: 600px) {
+            top: 24rem;
+            right: 0;
+            width: 7.5rem;
+        }
+        &:nth-of-type(2) {
+            opacity: 0;
+        }
+        &:hover {
+            -webkit-transform: translate(0, 0) scale(1.15) !important;
+	        transform: translate(0, 0) scale(1.15) !important;
+            &:nth-of-type(2) {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.samplecafe {
+    position: relative;
+    z-index: 2;
+    margin: 0;
+	cursor: pointer;
+    .samplecafe-top-img {
+        position: absolute;
+        top: 38rem;
+        right: 18rem;
+        width: 27rem;
+        height: auto;
+        -webkit-transform: translate(0, 0);
+	    transform: translate(0, 0);
+        -webkit-transition: .5s ease-in-out;
+	    transition: .5s ease-in-out;
+        @media (max-width: 1200px) {
+            top: 58rem;
+            right: 18rem;
+            width: 26rem;
+        }
+        @media (max-width: 900px) {
+            top: 59rem;
+            right: 10rem;
+            width: 24rem;
+        }
+        @media (max-width: 600px) {
+            top: 33rem;
+            right: 8rem;
+            width: 12rem;
+        }
+        &:nth-of-type(2) {
+            opacity: 0;
+        }
+        &:hover {
+            -webkit-transform: translate(0, 0) scale(1.15) !important;
+	        transform: translate(0, 0) scale(1.15) !important;
+            &:nth-of-type(2) {
+                opacity: 1;
+            }
+        }
+    }
+}
