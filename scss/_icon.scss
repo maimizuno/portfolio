@@ -153,9 +153,13 @@
 .icon-iconmonstr-globe-6:before {
     content: "\e91c";
     background: -webkit-linear-gradient(-45deg, #5815D8, #3273C7, #35BA95);
+    background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-    font-size: 44rem;
+    font-size: 47rem;
+    @media (max-width: 1400px) {
+        font-size: 44rem;
+    }
     @media (max-width: 1200px) {
         font-size: 36rem;
     }

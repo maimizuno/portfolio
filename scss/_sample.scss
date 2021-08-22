@@ -1,7 +1,6 @@
 //
 //samplecafe
 //
-
 .nav-underline {
     &.sample {
         top: -2.8rem;
@@ -24,7 +23,6 @@
     &.sample {
         z-index: 0;
         background-image: url(../images/sample-background.png);
-        background-attachment: fixed;
         //background: linear-gradient(-45deg, rgba(16, 120, 118, .8), rgba(50, 115, 199, .8), rgba(55, 5, 98, .9)),
             //url(../images/sample-background.png);
         @media (max-width: 768px) {
@@ -36,7 +34,6 @@
 //slide
 .slide_scroll-area{
     &.sample-scrollarea {
-        //background: linear-gradient(138deg, rgba(16, 120, 118, .8), rgba(50, 115, 199, .8), rgba(55, 5, 98, .9));
         background: linear-gradient(136deg, rgba(177, 45, 217, .9), rgba(72, 19, 118, .9), rgba(60, 9, 111, .9), rgba(20, 81, 160, .9), rgba(7, 108, 116, .9));
         background-size: 600% 600%;
         background-attachment: fixed;
@@ -131,6 +128,10 @@
         @media (max-width: 768px) {
             padding: 2rem 0;
         }
+    }
+    //slide8-video
+    &.sample-slide8 {
+        min-height: fit-content;
     }
     //color2
     &.sample-slide10 {
@@ -304,10 +305,10 @@
     justify-content: center;
     align-items: center;
     color: $sample-white;
-    width: 38rem;
+    width: 40rem;
     height: 9rem;
     border-radius: 9rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     &.gradient1 {
         background: linear-gradient(90deg, #8A2DD9,  #3273C7,  #107876);
     }
@@ -317,6 +318,10 @@
     &.gradient3 {
         background: linear-gradient(90deg, #11152C, #18406F, #257388);
         margin: 0;
+    }
+    @media (max-width: 1400px) {
+        width: 38rem;
+        margin-bottom: 2rem;
     }
     @media (max-width: 1200px) {
         width: 27rem;
@@ -515,10 +520,10 @@
 //font-heading
 .font-futura {
     position: absolute;
-    top: 35rem;
+    top: 40rem;
     left: -1.3rem;
     width: 100%;
-    font-size: 18.2rem;
+    font-size: 19rem;
     font-family: 'futura-pt', sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -526,6 +531,10 @@
     color: $light-navy;
     //border-bottom: 1px solid $electoric;
     line-height: 0.7;
+    @media (max-width: 1400px) {
+        top: 35rem;
+        font-size: 18.2rem;
+    }
     @media (max-width: 1200px) {
         top: 27rem;
         left: -0.7rem;
@@ -541,14 +550,18 @@
 
 .font-arboria {
     position: absolute;
-    top: 40rem;
+    top: 45rem;
     right: -1rem;
     font-family: 'arboria', sans-serif;
     color: $light-navy;
     font-weight: 500;
     font-style: normal;
-    font-size: 15.5rem;
+    font-size: 17.2rem;
     margin: 0;
+    @media (max-width: 1400px) {
+        top: 40rem;
+        font-size: 15.5rem;
+    }
     @media (max-width: 1200px) {
         top: 30rem;
         right: -0.55rem;
@@ -566,9 +579,12 @@
     &.sample {
         color: $blue-waltz;
         font-size: 2.4rem;
-        margin: 0 0 35rem;
+        margin: 0 0 48rem;
         &:last-child {
             margin: 0;
+        }
+        @media (max-width: 1400px) {
+            margin: 0 0 35rem;
         }
         @media (max-width: 1200px) {
             font-size: 2rem;
@@ -608,8 +624,9 @@
     font-weight: 700;
     font-style: normal;
     background: -webkit-linear-gradient(-45deg, #5815D8, #3273C7, #35BA95, #35BA95);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     @media (max-width: 1200px) {
         font-size: 6rem;
         padding-left: 1rem;

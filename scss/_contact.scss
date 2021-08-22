@@ -17,6 +17,9 @@
     transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
+    @media (max-width: 1200px) {
+        top: 25rem;
+    }
     @media (max-width: 600px) {
         top: 6rem;
         left: -7.5rem;
@@ -65,7 +68,7 @@ nav {
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
-    background: $yellow;
+    background: $shine;
     transition: all .3s ease-in-out;
     @media (max-width: 600px) {
         top: -2.3rem;

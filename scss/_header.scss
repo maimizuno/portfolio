@@ -12,7 +12,7 @@ header {
     position: absolute;
     top: -4rem;
     left: -8rem;
-    background: $yellow;
+    background: $shine;
     width: 39rem;
     height: 37.5rem;
     border-radius: 50%;
@@ -45,6 +45,7 @@ header {
     font-size: 2.7rem;
     margin: 0;
     letter-spacing: 0.03em;
+    line-height: 1.75;
     @media (max-width: 600px) {
         font-size: 1.85rem;
     }

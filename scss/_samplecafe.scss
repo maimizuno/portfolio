@@ -32,6 +32,7 @@
         background-image: url('../images/samplecafe-background.jpg');
         @media (max-width: 768px) {
             background-image: url('../images/samplecafe-background_sp.jpg');
+            background-attachment: fixed;
         }
     }
 }
@@ -116,6 +117,9 @@
         @media (max-width: 768px) {
             padding: 2rem;
         }
+    }
+    &.samplecafe-video {
+        min-height: fit-content;
     }
     //color
     &.slide9 {
