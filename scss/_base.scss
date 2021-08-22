@@ -1,22 +1,43 @@
 //
-// ベースのスタイル
+// base
 //
 
 
-// 変数
-$white: #fff;
-$navy: #11152C;
-$navy2: #18264E;
-$navy3: #214a96bd;
-$light-gray: #e8e8e8;
-$gray: #777777;
-$dark-gray: #222222;
-$green: #49f2c2;
-$green2: #43d9bd;
-$purple: #8A2DD9;
+// colour
+$shine: #FCEB22;
+$white: #fefefe;
+$black: #222;
+$gray: #707070;
+$dark-gray: #3c3c3c;
+$dark-gray2: #2C2B2B;
+$light-gray: #efefef;
+$background-gray: #f9f9f9;
 
-// アニメーション
-$defaultDuration: .5s;
+//samplecafe colour
+$tomato: #ea9c75;
+$salmon:#f5d0b5;
+$salmon-lines:#F5C6A3;
+$egg: #F7F3DF;
+$egg-white: #fffef8;
+$skin-gray: #606060;
+$avo: #C0CEA1;
+$avo-outer: #a4b284;
+
+//sample
+$dark-navy: #11152C;
+$light-navy: #18264e;
+$dark-ocean: #257388;
+$mallard: #107876;
+$sample-white: #fff;
+$sample-light-gray: #FFFEF8;
+$sample-darkgray: #222222;
+$blue-waltz: #43D9BD;
+$aquamarine: #49F2C2;
+$electoric: #8A2DD9;
+
+//nav
+$nav-length: 5;
+$nav-width: 100% / $nav-length;
 
 // ベーススタイル
 html {
@@ -24,36 +45,127 @@ html {
 }
 
 body {
-    font-family: 'arboria', sans-serif;
-    font-size: 1.4rem;
-    font-weight: 500;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'quicksand', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
     font-style: normal;
-    letter-spacing: .07em;
-    line-height: 1.75;
-    color: $light-gray;
-    background-color: $navy;
-    @media (min-width: 768px) {
+    line-height: 1.5;
+    color: $black;
+    background-color: $background-gray;
+    @media (max-width: 600px) {
+        font-size: 1.4rem;
+    }
+}
+
+main {
+    width: 100%;
+    height: 40rem;
+    @media (max-width: 1200px) {
+        height: 77rem;
+    }
+    @media (max-width: 600px) {
+        height: 50rem;
+    }
+}
+
+footer {
+    height: 55rem;
+    overflow: hidden;
+    position: relative;
+    @media (max-width: 1200px) {
+        height: 60rem;
+    }
+    @media (max-width: 600px) {
+        height: 31.2rem;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: $black;
+    font-family: 'source-serif-pro', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.3rem;
+    @media (max-width: 600px) {
+        font-size: 1.8rem;
+    }
+}
+
+img {
+    vertical-align: bottom;
+}
+
+h1 {
+    font-size: 7.4rem;
+    font-family: 'source-serif-pro', serif;
+    font-weight: 400;
+    font-style: normal;
+    color: $black;
+    margin: 0;
+    letter-spacing: 0.01em;
+    @media (max-width: 600px) {
+        font-size: 4.5rem;
+    }
+}
+
+h2 {
+    font-family: 'museo-sans', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin: 0;
+    @media (max-width: 1200px) {
+        font-size: 2.6rem;
+    }
+    @media (max-width: 768px) {
+        font-size: 2.2rem;
+    }
+}
+
+h4 {
+    font-family: 'source-sans-pro', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.6rem;
+}
+
+h5 {
+    font-family: 'source-serif-pro', serif;
+    font-weight: 400;
+    font-style: normal;
+    color: $gray;
+    font-size: 3rem;
+    letter-spacing: 0.02em;
+    @media (max-width: 1200px) {
+        font-size: 2.7rem;
+    }
+    @media (max-width: 768px) {
         font-size: 1.6rem;
     }
 }
 
-a {
-    color: $light-gray;
-    text-decoration: none;
-    cursor: pointer;
+ul {
+    list-style: none;
 }
 
-img {
-    max-width: 100%;
-    vertical-align: bottom;
-}
-
-h3 {
-    font-size: 1.7rem;
-    font-weight: 600;
-    line-height: 1.6;
-    color: $light-gray;
-    @media (min-width: 768px) {
-        font-size: 2.6rem;
-    }
+video {
+    width: 100%;
 }

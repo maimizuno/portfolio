@@ -16,12 +16,11 @@
     background-image: url(../images/rain.png);
     background-position: center left;
     background-repeat: no-repeat;
-    width: 62rem;
-    height: 80rem;
+    width: 63rem;
+    height: 95rem;
     @media (max-width: 1200px) {
         background-image: url(../images/rain_ipad.png);
-        width: 74rem;
-        height: 94rem;
+        height: 98rem;
     }
     @media (max-width: 900px) {
         width: 55rem;
