@@ -25,15 +25,10 @@
     }
 }
 
-//background
+//header background
 .background-img {
     &.samplecafe {
-        z-index: 0;
         background-image: url('../images/samplecafe-background.jpg');
-        @media (max-width: 768px) {
-            background-image: url('../images/samplecafe-background_sp.jpg');
-            background-attachment: fixed;
-        }
     }
 }
 
