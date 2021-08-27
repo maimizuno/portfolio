@@ -1050,8 +1050,8 @@ nav a:nth-child(5):hover ~ .nav-underline {
   left: 0;
   z-index: 0;
   width: 100%;
-  height: 260vw;
-  background-attachment: fixed;
+  height: 100%;
+  background-image: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
