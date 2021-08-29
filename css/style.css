@@ -3942,6 +3942,7 @@ nav a:nth-child(5):hover ~ .nav-underline {
 }
 
 .others-slide-heading {
+  width: 100%;
   font-size: 4rem;
   margin: 0;
 }
@@ -3974,7 +3975,7 @@ nav a:nth-child(5):hover ~ .nav-underline {
 
 @media (max-width: 768px) {
   .others-slide-heading {
-    font-size: 2.4rem;
+    font-size: 2.1rem;
   }
   .others-slide-heading span {
     font-size: 1.4rem;
@@ -4023,7 +4024,7 @@ nav a:nth-child(5):hover ~ .nav-underline {
 
 @media (max-width: 768px) {
   .inProgress {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 }
 
