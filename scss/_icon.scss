@@ -1,4 +1,8 @@
-//icon samplecafe title tomato stem
+//
+//samplecafe
+//
+
+//title tomato stem
 .icon-ribon:before {
     content: "\e901";
     color: $avo;
@@ -143,6 +147,9 @@
     color: #f7f3df;
 }
 
+//
+//sample
+//
 //sample-webicon
 .icon-iconmonstr-globe-6:before {
     content: "\e91c";
@@ -160,4 +167,108 @@
     @media (max-width: 950px) {
         font-size: 23rem;
     }
+}
+
+//
+//others
+//
+//photoshop
+.icon-ps .path1:before {
+    content: "\e92f";
+    color: #efefef;
+}
+.icon-ps .path2:before {
+    content: "\e930";
+    color: #4b4b4b;
+    margin-left: -1em;
+}
+.icon-ps .path3:before {
+    content: "\e931";
+    color: #4b4b4b;
+    margin-left: -1em;
+}
+
+//illustrator
+.icon-ai .path1:before {
+    content: "\e91f";
+    color: #efefef;
+}
+.icon-ai .path2:before {
+    content: "\e920";
+    color: #4b4b4b;
+    margin-left: -1em;
+}
+.icon-ai .path3:before {
+    content: "\e921";
+    color: #4b4b4b;
+    margin-left: -1em;
+}
+.icon-ai .path4:before {
+    content: "\e922";
+    color: #4b4b4b;
+    margin-left: -1em;
+}
+
+//procreate
+.icon-procreate .path1:before {
+    content: "\e92b";
+    color: #efefef;
+}
+.icon-procreate .path2:before {
+    content: "\e92c";
+    color: #4b4b4b;
+    margin-left: -1em;
+}
+.icon-procreate .path3:before {
+    content: "\e92d";
+    color: #4b4b4b;
+    margin-left: -1em;
+}
+.icon-procreate .path4:before {
+    content: "\e92e";
+    color: #000;
+    margin-left: -1em;
+}
+
+//markers
+.icon-marker .path1:before {
+    content: "\e923";
+    color: #efefef;
+}
+.icon-marker .path2:before {
+    content: "\e924";
+    color: #4b4b4b;
+    margin-left: -1em;
+}
+.icon-marker .path3:before {
+    content: "\e925";
+    color: #4b4b4b;
+    margin-left: -1em;
+}
+.icon-marker .path4:before {
+    content: "\e926";
+    color: #4b4b4b;
+    margin-left: -1em;
+}
+
+//fountain pen
+.icon-pen .path1:before {
+    content: "\e927";
+    color: #efefef;
+}
+.icon-pen .path2:before {
+    content: "\e928";
+    color: #4b4b4b;
+    margin-left: -1em;
+}
+
+//pencils
+.icon-pencils .path1:before {
+    content: "\e929";
+    color: #efefef;
+}
+.icon-pencils .path2:before {
+    content: "\e92a";
+    color: #4b4b4b;
+    margin-left: -1em;
 }
