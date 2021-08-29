@@ -211,6 +211,7 @@
 
 //slide2
 .others-slide-heading {
+    width: 100%;
     font-size: 4rem;
     margin: 0;
     span {
@@ -233,7 +234,7 @@
         }
     }
     @media (max-width: 768px){
-        font-size: 2.4rem;
+        font-size: 2.1rem;
         span {
             font-size: 1.4rem;
         }
@@ -269,7 +270,7 @@
         font-size: 7.8rem;
     }
     @media (max-width: 768px){
-        font-size: 5rem;
+        font-size: 4rem;
     }
 }
 
