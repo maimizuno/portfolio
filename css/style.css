@@ -162,7 +162,8 @@ ul {
 }
 
 video {
-  width: 100%;
+  width: 101%;
+  height: auto;
 }
 
 header {
@@ -1345,6 +1346,12 @@ nav a:nth-child(5):hover ~ .nav-underline {
   }
 }
 
+@media (min-width: 1500px) {
+  .slide_scroll-area {
+    padding: 15rem 23% 0;
+  }
+}
+
 .slide {
   position: relative;
   width: 100%;
@@ -1369,6 +1376,12 @@ nav a:nth-child(5):hover ~ .nav-underline {
   overflow: hidden;
   -webkit-animation-duration: 3s;
           animation-duration: 3s;
+}
+
+@media (max-width: 1200px) {
+  .slide {
+    border-radius: 3.5rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1814,7 +1827,7 @@ nav a:nth-child(5):hover ~ .nav-underline {
   position: absolute;
   bottom: 5rem;
   left: 5rem;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-family: 'quicksand', sans-serif;
 }
 
@@ -1822,7 +1835,6 @@ nav a:nth-child(5):hover ~ .nav-underline {
   .slide13-copyright {
     bottom: 3rem;
     left: 3rem;
-    font-size: 1.5rem;
   }
 }
 
@@ -1933,6 +1945,12 @@ nav a:nth-child(5):hover ~ .nav-underline {
 @media (max-width: 768px) {
   .background-img.samplecafe {
     background-image: url("../images/samplecafe-background_sp.jpg");
+  }
+}
+
+@media (min-width: 1600px) {
+  .background-img.samplecafe {
+    background-image: url("../images/samplecafe-background_bigscreen.jpg");
   }
 }
 
@@ -2803,6 +2821,12 @@ nav a:nth-child(5):hover ~ .nav-underline {
 @media (max-width: 768px) {
   .background-img.sample {
     background-image: url(../images/sample-background_sp.png);
+  }
+}
+
+@media (min-width: 1600px) {
+  .background-img.sample {
+    background-image: url(../images/sample-background_bigscreen.png);
   }
 }
 
@@ -4260,17 +4284,23 @@ nav a:nth-child(5):hover ~ .nav-underline {
   }
 }
 
+@media (min-width: 1500px) {
+  .image-area {
+    margin-top: 75rem;
+  }
+}
+
 .about_sub-img-box {
   margin-left: -8rem;
   margin-bottom: 44rem;
 }
 
 .about_sub-img-box.img2 {
-  margin-bottom: 32rem;
+  margin-bottom: 68rem;
 }
 
 .about_sub-img-box.img3 {
-  margin-bottom: 156rem;
+  margin-bottom: 127rem;
 }
 
 @media (max-width: 1200px) {
@@ -4301,7 +4331,6 @@ nav a:nth-child(5):hover ~ .nav-underline {
 
 @media (max-width: 500px) {
   .about_sub-img-box {
-    margin-left: -4rem;
     margin-bottom: 59rem;
   }
   .about_sub-img-box.img2 {
@@ -4309,6 +4338,18 @@ nav a:nth-child(5):hover ~ .nav-underline {
   }
   .about_sub-img-box.img3 {
     margin-bottom: 111rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .about_sub-img-box {
+    margin-bottom: 28rem;
+  }
+  .about_sub-img-box.img2 {
+    margin-bottom: 50rem;
+  }
+  .about_sub-img-box.img3 {
+    margin-bottom: 165rem;
   }
 }
 
