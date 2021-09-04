@@ -1,9 +1,9 @@
 @media (max-width: 768px) {
     .hide{
-	    transform: translateY(-100%); /* 上に消えるようにする */
+	    transform: translateY(-100%);
     }
     #scrollArea{
-        transition: .5s; /* スクロール時に一瞬で消えると物足りないので.hideの処理を0.5秒で行う */
-        z-index: 100; /* 前面に表示されるようにする */
+        transition: .5s;
+        /*z-index: 100; 
     }
 }

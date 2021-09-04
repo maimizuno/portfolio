@@ -192,7 +192,7 @@ header {
   position: absolute;
   top: 2rem;
   left: 3rem;
-  z-index: 2;
+  z-index: 5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -283,7 +283,7 @@ header {
 
 .works-heading {
   position: absolute;
-  top: 19rem;
+  top: 20rem;
   left: 2rem;
   z-index: 3;
   color: black;
@@ -1930,6 +1930,12 @@ nav a:nth-child(5):hover ~ .nav-underline {
   background-image: url("../images/samplecafe-background.jpg");
 }
 
+@media (max-width: 768px) {
+  .background-img.samplecafe {
+    background-image: url("../images/samplecafe-background_sp.jpg");
+  }
+}
+
 .slide.slide1 {
   background: #ea9c75;
   color: #f5d0b5;
@@ -2792,6 +2798,12 @@ nav a:nth-child(5):hover ~ .nav-underline {
 .background-img.sample {
   z-index: 0;
   background-image: url(../images/sample-background.png);
+}
+
+@media (max-width: 768px) {
+  .background-img.sample {
+    background-image: url(../images/sample-background_sp.png);
+  }
 }
 
 .slide_scroll-area.sample-scrollarea {
@@ -4254,11 +4266,11 @@ nav a:nth-child(5):hover ~ .nav-underline {
 }
 
 .about_sub-img-box.img2 {
-  margin-bottom: 101rem;
+  margin-bottom: 32rem;
 }
 
 .about_sub-img-box.img3 {
-  margin-bottom: 87rem;
+  margin-bottom: 156rem;
 }
 
 @media (max-width: 1200px) {
