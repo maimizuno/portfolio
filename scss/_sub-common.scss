@@ -129,6 +129,10 @@
     @media (max-width: 500px) {
         padding: 26rem 3rem 0;
     }
+    //bigger screen
+    @media (min-width: 1500px) {
+        padding: 15rem 23% 0;
+    }
 }
 
 .slide {
@@ -144,6 +148,9 @@
     margin-bottom: 10rem;
     overflow: hidden;
     animation-duration: 3s;
+    @media (max-width: 1200px) {
+        border-radius: 3.5rem;
+    }
     @media (max-width: 768px) {
         border-radius: 2rem;
         margin-bottom: 4rem;
@@ -434,12 +441,11 @@
     position: absolute;
     bottom: 5rem;
     left: 5rem;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-family: 'quicksand', sans-serif;
     @media (max-width: 1200px) {
         bottom: 3rem;
         left: 3rem;
-        font-size: 1.5rem;
     }
     @media (max-width: 768px) {
         position: unset;

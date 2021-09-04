@@ -29,6 +29,14 @@
 .background-img {
     &.samplecafe {
         background-image: url('../images/samplecafe-background.jpg');
+        //sp
+        @media (max-width: 768px) {
+            background-image: url('../images/samplecafe-background_sp.jpg');
+        }
+        //big screen
+        @media (min-width: 1600px) {
+            background-image: url('../images/samplecafe-background_bigscreen.jpg');
+        }
     }
 }
 

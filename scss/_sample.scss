@@ -23,6 +23,14 @@
     &.sample {
         z-index: 0;
         background-image: url(../images/sample-background.png);
+        //sp
+        @media (max-width: 768px) {
+            background-image: url(../images/sample-background_sp.png);
+        }
+        //big screen
+        @media (min-width: 1600px) {
+            background-image: url(../images/sample-background_bigscreen.png);
+        }
     }
 }
 
