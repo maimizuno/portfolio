@@ -2,11 +2,18 @@
 //others
 //
 
+//home
+.name {
+    &.others {
+        color: $light-gray;
+    }
+}
+
 //websitesite link
 .sub-nav {
     &.others {
         a {
-            color: $white;
+            color: $light-gray;
         }
     }
 }
@@ -274,10 +281,11 @@
         font-size: 9rem;
     }
     @media (max-width: 900px){
-        font-size: 7.8rem;
+        bottom: 1rem;
+        font-size: 5.7rem;
     }
     @media (max-width: 768px){
-        font-size: 4rem;
+        font-size: 4.1rem;
     }
 }
 
