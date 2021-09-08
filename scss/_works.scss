@@ -28,7 +28,7 @@
     @media (max-width: 600px) {
         background-image: url(../images/rain_sp.png);
         width: 22.5rem;
-        height: 57rem;
+        height: 63rem;
     }
 }
 
@@ -120,7 +120,7 @@
     position: absolute;
     top: 18rem;
     left: 1rem;
-    color: $gray;
+    color: $dark-gray;
     @media (max-width: 1200px) {
         top: 13.5rem;
     }
