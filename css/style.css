@@ -1590,7 +1590,7 @@ nav a:nth-child(5):hover ~ .nav-underline {
 
 .caption {
   font-size: 2rem;
-  font-family: 'quicksand', sans-serif;
+  font-family: "quicksand", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 1.5;
@@ -1921,7 +1921,7 @@ nav a:nth-child(5):hover ~ .nav-underline {
   bottom: 5rem;
   left: 5rem;
   font-size: 1.5rem;
-  font-family: 'quicksand', sans-serif;
+  font-family: "quicksand", sans-serif;
 }
 
 @media (max-width: 1200px) {
@@ -2047,6 +2047,12 @@ nav a:nth-child(5):hover ~ .nav-underline {
   }
 }
 
+@media (min-width: 2000px) {
+  .background-img.samplecafe {
+    background-image: url("../images/samplecafe-background-over2000.jpg");
+  }
+}
+
 .slide.slide1 {
   background: #ea9c75;
   color: #f5d0b5;
@@ -2145,7 +2151,7 @@ nav a:nth-child(5):hover ~ .nav-underline {
 
 .slide.slide7 {
   background: #f5d0b5;
-  color: #E38E63;
+  color: #e38e63;
   padding: 3rem 5rem 3.5rem 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -2263,7 +2269,7 @@ nav a:nth-child(5):hover ~ .nav-underline {
 
 .slide1_title {
   font-size: 12rem;
-  font-family: 'parkside', cursive;
+  font-family: "parkside", cursive;
   font-weight: 400;
   font-style: normal;
   margin: 0;
@@ -2288,7 +2294,7 @@ nav a:nth-child(5):hover ~ .nav-underline {
 
 .slide1_subtitle {
   font-size: 4rem;
-  font-family: 'yrsa', serif;
+  font-family: "yrsa", serif;
   font-weight: 400;
   font-style: normal;
   margin: 0;
@@ -2663,7 +2669,7 @@ nav a:nth-child(5):hover ~ .nav-underline {
 
 .font-parkside {
   font-size: 16.1rem;
-  font-family: 'parkside', cursive;
+  font-family: "parkside", cursive;
   font-weight: 400;
   font-style: normal;
   text-align: center;
@@ -2687,7 +2693,7 @@ nav a:nth-child(5):hover ~ .nav-underline {
   position: absolute;
   top: 10rem;
   right: 18rem;
-  font-family: 'yrsa', serif;
+  font-family: "yrsa", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 12.5rem;
@@ -2758,7 +2764,7 @@ nav a:nth-child(5):hover ~ .nav-underline {
   padding-left: 2rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'parkside', cursive;
+  font-family: "parkside", cursive;
   font-weight: 400;
   font-style: normal;
   color: #F5C6A3;
@@ -2777,7 +2783,7 @@ nav a:nth-child(5):hover ~ .nav-underline {
 }
 
 .h3-heading {
-  font-family: 'parkside', cursive;
+  font-family: "parkside", cursive;
   font-weight: 400;
   font-style: normal;
   font-size: 6.5rem;
@@ -2869,7 +2875,7 @@ nav a:nth-child(5):hover ~ .nav-underline {
 
 .abc {
   color: #ea9c75;
-  font-family: 'yrsa', serif;
+  font-family: "yrsa", serif;
   font-size: 4.2rem;
   letter-spacing: 0.2em;
   line-height: 1.2;
@@ -2899,11 +2905,11 @@ nav a:nth-child(5):hover ~ .nav-underline {
   left: -7.5rem;
   width: 9rem;
   height: 9rem;
-  background: #40CCB2;
+  background: #40ccb2;
 }
 
 .site-link.sample {
-  background: #40CCB2;
+  background: #40ccb2;
 }
 
 .background-img.sample {
@@ -2920,6 +2926,12 @@ nav a:nth-child(5):hover ~ .nav-underline {
 @media (min-width: 1600px) {
   .background-img.sample {
     background-image: url(../images/sample-background_bigscreen.png);
+  }
+}
+
+@media (min-width: 2000px) {
+  .background-img.sample {
+    background-image: url(../images/sample-background-over2000.png);
   }
 }
 
@@ -3153,7 +3165,7 @@ nav a:nth-child(5):hover ~ .nav-underline {
 
 .sample_slide1-title {
   font-size: 6.8rem;
-  font-family: 'hero-new', sans-serif;
+  font-family: "hero-new", sans-serif;
   font-weight: 700;
   font-style: normal;
   line-height: 1.1;
@@ -3180,7 +3192,7 @@ nav a:nth-child(5):hover ~ .nav-underline {
 .sample_slide1-subtitle {
   color: #43D9BD;
   font-size: 2.7rem;
-  font-family: 'arboria',sans-serif;
+  font-family: "arboria", sans-serif;
   font-weight: 400;
   font-style: normal;
   margin: 0;
@@ -3332,8 +3344,8 @@ nav a:nth-child(5):hover ~ .nav-underline {
 }
 
 .gradient-background-box.gradient1 {
-  background: -webkit-gradient(linear, left top, right top, from(#8A2DD9), color-stop(#3273C7), to(#107876));
-  background: linear-gradient(90deg, #8A2DD9, #3273C7, #107876);
+  background: -webkit-gradient(linear, left top, right top, from(#8a2dd9), color-stop(#3273c7), to(#107876));
+  background: linear-gradient(90deg, #8a2dd9, #3273c7, #107876);
 }
 
 .gradient-background-box.gradient2 {
@@ -3342,8 +3354,8 @@ nav a:nth-child(5):hover ~ .nav-underline {
 }
 
 .gradient-background-box.gradient3 {
-  background: -webkit-gradient(linear, left top, right top, from(#11152C), color-stop(#18406F), to(#257388));
-  background: linear-gradient(90deg, #11152C, #18406F, #257388);
+  background: -webkit-gradient(linear, left top, right top, from(#11152c), color-stop(#18406f), to(#257388));
+  background: linear-gradient(90deg, #11152c, #18406f, #257388);
   margin: 0;
 }
 
@@ -3591,7 +3603,7 @@ nav a:nth-child(5):hover ~ .nav-underline {
   left: -1.3rem;
   width: 100%;
   font-size: 19rem;
-  font-family: 'futura-pt', sans-serif;
+  font-family: "futura-pt", sans-serif;
   font-weight: 700;
   font-style: normal;
   margin: 0;
@@ -3627,7 +3639,7 @@ nav a:nth-child(5):hover ~ .nav-underline {
   position: absolute;
   top: 45rem;
   right: -1rem;
-  font-family: 'arboria', sans-serif;
+  font-family: "arboria", sans-serif;
   color: #18264e;
   font-weight: 500;
   font-style: normal;
@@ -3720,10 +3732,10 @@ nav a:nth-child(5):hover ~ .nav-underline {
   padding-left: 2rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'futura-pt', sans-serif;
+  font-family: "futura-pt", sans-serif;
   font-weight: 700;
   font-style: normal;
-  background: -webkit-linear-gradient(-45deg, #5815D8, #3273C7, #35BA95, #35BA95);
+  background: -webkit-linear-gradient(-45deg, #5815d8, #3273c7, #35ba95, #35ba95);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -3764,7 +3776,7 @@ nav a:nth-child(5):hover ~ .nav-underline {
 
 .sample-abc {
   color: #FFFEF8;
-  font-family: 'arboria', serif;
+  font-family: "arboria", serif;
   font-size: 3.9rem;
   letter-spacing: 0.2em;
   line-height: 1.4;
